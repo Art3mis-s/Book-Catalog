@@ -1,28 +1,17 @@
-Book Catalog
+Welcome to the Book Catalog Management System! 
 
-This Book Catalog application allows users to manage a collection of books, providing functionalities to add, view, and search for books within the catalog.
+This Python-based program allows users to interact with a virtual book catalog. Users can perform various actions, including adding new books with details like title, author, genre, status, and a brief review. The system provides functionality to view the catalog, search for specific books using keywords, and save the catalog data to a JSON file for future use.
 
-Files:
-project.py:
-Contains the core functionalities of the Book Catalog.
-load_catalog(): Loads the book catalog from "catalog.json" or initializes an empty catalog.
-save_catalog(catalog): Saves the current catalog data to "catalog.json".
-add_book(catalog, title, author, genre, status, review): Adds a book with provided details to the catalog.
-view_catalog(catalog): Displays the existing catalog of books.
-search_books(catalog): Searches for books based on a keyword in the title, author, or genre.
-Design Choices:
-The book data is structured as a dictionary to encapsulate book details efficiently. Separate functions handle distinct functionalities, ensuring modularity and readability. JSON format is used for catalog storage due to its simplicity and ease of integration.
+Key Features:
 
-Testing:
-test_project.py contains test cases for core functionalities:
-test_add_book(): Tests the addition of a book to the catalog.
-test_view_catalog(): Tests the viewing functionality of the catalog.
-test_search_books(): Tests the search functionality in the catalog.
-How to Run:
-Ensure Python is installed. To run the application:
+Add Book: Input details of a new book, including title, author, genre, status, and review.
+View Catalog: Display a list of books in the catalog, showing titles, authors, and statuses.
+Search Books: Search for books using keywords in titles, authors, or genres.
+Save Catalog: Save the current catalog data to a JSON file for persistence.
+How to Use:
 
-Open a terminal or command prompt.
-Navigate to the project directory.
-Run: python project.py.
-Dependencies:
-The project uses pytest for testing. Ensure it is installed before running tests.
+Run the program and follow the on-screen menu prompts.
+Choose options to add a book, view the catalog, search for books, or exit the program.
+This project is a simple and efficient tool for book enthusiasts to manage and explore their reading catalog. Enjoy organizing and exploring your book collection!
+
+:)
